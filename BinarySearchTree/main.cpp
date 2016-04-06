@@ -25,6 +25,7 @@ int main(){
     treeOfNums.insert(93);
     treeOfNums.insert(99);
 
+	//inorder printing using iterative traversal
     treeOfNums.print();
 
     treeOfNums.find(82);

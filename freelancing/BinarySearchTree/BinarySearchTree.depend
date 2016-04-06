@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1459823897 source:c:\codeblocks-workspace\BinarySearchTree\main.cpp
+	"BinNode.h"
+	"BST.h"
+
+1459823875 c:\codeblocks-workspace\BinarySearchTree\include\binnode.h
+	<cstddef>
+
+1459829263 c:\codeblocks-workspace\BinarySearchTree\include\bst.h
+	"BinNode.h"
+	"Stack.h"
+	<iostream>
+	<cstddef>
+
+1459829179 c:\codeblocks-workspace\BinarySearchTree\include\stack.h
+	<string>
+
+1459824025 source:c:\codeblocks-workspace\BinarySearchTree\src\binnode.cpp
+	"BinNode.h"
+
+1459828706 source:c:\codeblocks-workspace\BinarySearchTree\src\stack.cpp
+
+1459828852 source:c:\codeblocks-workspace\BinarySearchTree\src\bst.cpp
+	"BST.h"
+	<stack>
+

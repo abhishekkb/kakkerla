@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1458158763 source:c:\codeblocks-workspace\game-proj\main.cpp
+	<iostream>
+	"Balrog.h"
+	"Creature.h"
+	"CyberDemon.h"
+	"Demon.h"
+	"Elf.h"
+	"Human.h"
+
+1458158868 c:\codeblocks-workspace\game-proj\include\balrog.h
+	<string>
+	"Demon.h"
+
+1458175369 c:\codeblocks-workspace\game-proj\include\demon.h
+	<string>
+	"Creature.h"
+
+1458175196 c:\codeblocks-workspace\game-proj\include\creature.h
+	<string>
+
+1458160141 c:\codeblocks-workspace\game-proj\include\cyberdemon.h
+	<string>
+	"Demon.h"
+
+1458158903 c:\codeblocks-workspace\game-proj\include\elf.h
+	<string>
+	"Creature.h"
+
+1458158884 c:\codeblocks-workspace\game-proj\include\human.h
+	<string>
+	"Creature.h"
+
+1458160451 source:c:\codeblocks-workspace\game-proj\src\balrog.cpp
+	"Balrog.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1458175281 source:c:\codeblocks-workspace\game-proj\src\creature.cpp
+	"Creature.h"
+	"CreatureStats.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1458150496 c:\codeblocks-workspace\game-proj\include\creaturestats.h
+
+1458156622 source:c:\codeblocks-workspace\game-proj\src\cyberdemon.cpp
+	"CyberDemon.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1458160382 source:c:\codeblocks-workspace\game-proj\src\demon.cpp
+	"Demon.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1458156178 source:c:\codeblocks-workspace\game-proj\src\human.cpp
+	"Human.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1458160377 source:c:\codeblocks-workspace\game-proj\src\elf.cpp
+	"Elf.h"
+	<iostream>
+	<cstdlib>
+	<string>
+

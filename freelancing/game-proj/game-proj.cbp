@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game-proj" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/game-proj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/game-proj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Balrog.h" />
+		<Unit filename="include/Creature.h" />
+		<Unit filename="include/CreatureStats.h" />
+		<Unit filename="include/CyberDemon.h" />
+		<Unit filename="include/Demon.h" />
+		<Unit filename="include/Elf.h" />
+		<Unit filename="include/Human.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Balrog.cpp" />
+		<Unit filename="src/Creature.cpp" />
+		<Unit filename="src/CyberDemon.cpp" />
+		<Unit filename="src/Demon.cpp" />
+		<Unit filename="src/Elf.cpp" />
+		<Unit filename="src/Human.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
